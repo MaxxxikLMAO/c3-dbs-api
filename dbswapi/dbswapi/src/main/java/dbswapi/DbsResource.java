@@ -30,9 +30,9 @@ public class DbsResource {
             String druhnazev = result.getString("nazev");
             animal.setDruh(druhnazev);
             String vaha = result.getString("vaha");
-            animal.setId(id);
+            animal.setId(vaha);
             String narozen = result.getString("narozen");
-            animal.setId(id);
+            animal.setId(narozen);
 
             animalArr.add(animal);
             System.out.println("hhh");
